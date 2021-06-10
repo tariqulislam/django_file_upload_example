@@ -1,9 +1,6 @@
-**/migrations
 *.DS_Store
 **/__pycache__
 **/.DS_Store
 
 **/media/documents
 **/media/images
-
-db.sqlite3
