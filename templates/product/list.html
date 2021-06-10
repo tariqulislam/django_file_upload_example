@@ -1,0 +1,8 @@
+<h1>Products</h1>
+<ul>
+{% for product in object_list %}
+    <li>{{ product.title }} - {{ product.doc_file }}-{{product.image_file}}</li>
+{% empty %}
+    <li>Product is not found.</li>
+{% endfor %}
+</ul>
